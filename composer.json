@@ -1,0 +1,19 @@
+{
+    "name": "madarsv/logger-trait",
+    "type": "library",
+    "require": {
+        "psr/log": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Madars",
+            "email": "madars.veners@gmail.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"LoggerTrait\\": "src/"
+		}
+	}
+}
